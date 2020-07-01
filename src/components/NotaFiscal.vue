@@ -30,9 +30,6 @@ export default {
 
   methods: mapActions('nota', [
     'addProdutoNotaFiscal'
-  ]),
-  created () {
-   // this.$store.dispatch('nota/itensNotaFiscal')
-  }
+  ])
 }
 </script>
