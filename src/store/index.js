@@ -13,18 +13,6 @@ export default new Vuex.Store({
     nota,
     buscaProduto
   }
-  // strict: debug,
-  // plugins: debug ? [createLogger()] : []
+
 })
 
-
-// export default new Vuex.Store({
-//   state: {
-//   },
-//   mutations: {
-//   },
-//   actions: {
-//   },
-//   modules: {
-//   }
-// })
