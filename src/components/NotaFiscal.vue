@@ -2,15 +2,10 @@
 <div>
 
     <br>
-    Produtos da nota fiscal
-  <ul>
-    <li
-      v-for="item in itensNota"
-      :key="item.id">
-      {{ item.title }}
-      <br>
-    </li>
-  </ul>
+    <h5>Produtos da nota fiscal</h5>
+
+     <b-table striped hover :fields="fields" :items="itensNota"></b-table>
+  
 </div>
 </template>
 
@@ -18,13 +13,11 @@
 import { mapState, mapActions, mapGetters } from 'vuex'
 
 export default {
-  // computed: mapState({
-  //   itensNota: state => state.nota.items
-  // }),
-  
-
-
-
+  data() {
+    return {
+      fields: ["id", "title"],
+    };
+  },
   computed: {
     ...mapState({
       itensNota: state => state.nota.items

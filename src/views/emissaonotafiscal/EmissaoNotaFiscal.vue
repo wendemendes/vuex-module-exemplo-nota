@@ -1,6 +1,6 @@
 <template>
   <div>
-      Emissao Nota fiscal
+      <h2>Emissão de nota fiscal</h2>
 
       <BuscaProduto/>
       <NotaFiscal/>
