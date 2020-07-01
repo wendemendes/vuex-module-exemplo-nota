@@ -21,6 +21,7 @@ export default {
   // computed: mapState({
   //   itensNota: state => state.nota.items
   // }),
+  
 
 
   computed: {
