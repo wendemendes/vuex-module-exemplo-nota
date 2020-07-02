@@ -1,6 +1,18 @@
 <template>
   <div>
-    <h3>Exemplo com vuex para modularizar os store e organizar as rotas</h3>
+
+
+<h3>Exemplo de:</h3>
+
+<b-list-group>
+  <b-list-group-item> vuex para modularizar os store </b-list-group-item>
+  <b-list-group-item>organizando as rotas</b-list-group-item>
+
+  <b-list-group-item>aplicando table com bootstrap</b-list-group-item>
+ 
+</b-list-group>
+
+   <br/><br/>
 
     <b-nav vertical class="w-25">
       <b-nav-item>
